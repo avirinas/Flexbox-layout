@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255,255,255,0.2);
+}
+.layout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.container{
+    width: 250px;
+    height: 450px;
+    margin: 20px 20px;
+    display: flex;
+    background: rgba(252, 252, 252, 0.2);
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    
+}
+.container:nth-of-type(2){
+    height: 550px;
+}
+.container:nth-of-type(3){
+    height: 400px;
+}
+.text-box{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    
+}
+.text{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    
+}
+.price{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    font-size: 3em;
+    padding: 0;
+    
+}
+.button{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 6px; 
+    padding: 15px;
+    background: #fffd38;
+    font-size: 1.2em;
+    
+}
+.addon{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+h2{
+    margin: 30px 30px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+}
+img{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
